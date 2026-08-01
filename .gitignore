@@ -1,3 +1,4 @@
+.gitignore
 PAT.txt
 archive/
 __pycache__/
