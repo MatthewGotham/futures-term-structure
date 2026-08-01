@@ -4,4 +4,7 @@ Tools for sourcing, analyzing and describing the term structure of futures contr
 
 ##  Contents
 
-To be added.
+- miscellaneous.py
+- update_SGX_settlement.py
+- futures_curve_animation.py
+- To be added.
