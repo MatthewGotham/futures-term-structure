@@ -17,7 +17,7 @@ This repo contains tools for sourcing, analyzing and describing the term structu
         * SGX SICOM TSR20 Futures (TF)
         * SGX Platts Marine Fuel 0.5% FOB Singapore Index Futures (MF5F)
 2. Run [futures_curve_animation.py](/futures_curve_animation.py).
-    * For each of the selected contracts (default: same list as above), an animation showing the movement of the futures curve over the last 60 days is saved to the folder [animations](/animations).
+    * For each of the selected contracts (default: same list as above), an animation showing the movement of the futures curve over the period for which you have price data is saved to the folder [animations](/animations).
 
 
 ### To change the contracts
