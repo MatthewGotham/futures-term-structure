@@ -39,7 +39,7 @@ for futures_zip in futures_files:
 #%% Get the for the desired securities from the files.
 
 # Adapt the following line as necessary, for the contracts you're interested in.
-to_add = contracts_dict.keys()
+to_add = ['FEF', 'CN', 'CY', 'TF', 'MF5F']
 
 # Access the data we have.
 dfs = {code: pd.read_parquet(os.path.join(prices_folder,

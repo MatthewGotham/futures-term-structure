@@ -15,7 +15,7 @@ from matplotlib import axes, pyplot as plt, dates as mdates
 cwf_str = 'SGX Baltic Capesize Time Charter Average (5 Routes) 180 Futures'
 sora_str = "SGX Three-Month Singapore Overnight Rate Average (SORA) Futures"
 mf5f_str = "SGX Platts Marine Fuel 0.5% FOB Singapore Index Futures"
-contracts_dict = {'FEF': 'SGX Iron Ore (61%) Futures',
+contracts_dict = {'FEF': 'SGX IODEX Iron Ore Futures',
                   'CN': "SGX FTSE China A50 Index Futures",
                   "CY": "SGX CNY/USD FX Futures",
                   "TF": "SGX SICOM TSR20 Futures",

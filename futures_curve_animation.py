@@ -86,7 +86,7 @@ def animate_curve(curve:pd.DataFrame, title:str, priced_in:str|None=None,
 #%% Curves to save
 
 # Adapt the following line as necessary, for the contracts you're interested in.
-to_include = contracts_dict.keys()
+to_include = to_add = ['FEF', 'CN', 'CY', 'TF', 'MF5F']
 for code in to_include:
     contract = contracts_dict[code]
     quote = priced_in_dict[code]
