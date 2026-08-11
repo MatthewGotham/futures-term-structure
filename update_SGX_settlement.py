@@ -60,7 +60,7 @@ for futures_file in [f for f in os.listdir(save_folder) if f.endswith('csv')]:
             sers = df_new.set_index(['Date','Prompt'])['SETTLE']
             df = pd.concat([df, sers.unstack()], sort=True)
             dfs[code] = df
-    print(f"{futures_file} added.")
+            print(f"{code} data from {futures_file} added.")
 
 # Save to disk.
 for code,df in dfs.items():
