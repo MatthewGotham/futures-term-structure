@@ -2,7 +2,4 @@
 PAT.txt
 archive/
 __pycache__/
-notes.txt
-exploration.py
-curve_evolution.py
-evr.txt
+update_TAIFEX_secret.py
