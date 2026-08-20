@@ -1,0 +1,369 @@
+Ticker Symbol,Contract,Note,Type
+TXF,TAIEX Futures,,Equity index
+EXF,Electronics Sector Index Futures,,Equity index
+ZEF,Mini Electronics Sector Futures,,Equity index
+FXF,Finance Sector Index Futures,,Equity index
+ZFF,Mini Finance Sector Futures,,Equity index
+MXF,Mini-TAIEX Futures,Expires on the third Wednesday of the trading month,Equity index
+MX1,Mini-TAIEX Futures,Expires on the first Wednesday of the trading month,Equity index
+MX2,Mini-TAIEX Futures,Expires on the second Wednesday of the trading month,Equity index
+MX4,Mini-TAIEX Futures,Expires on the fourth Wednesday of the trading month,Equity index
+MX5,Mini-TAIEX Futures,Expires on the fifth Wednesday of the trading month,Equity index
+MXFFX,Mini-TAIEX Flexible Futures,,Equity index
+TMF,Micro TAIEX Futures,,Equity index
+GTF,Taipei Exchange Stock Index Futures,,Equity index
+G2F,TPEx 200 Futures,,Equity index
+E4F,F4G TIP TW ESG Futures,,Equity index
+BTF,TIP Taiwan BIO Index,,Equity index
+SOF,Semiconductor 30 Futures,,Equity index
+SHF,Shipping and Transportation Sector Futures,,Equity index
+M1F,Taiwan Mid-Cap 100 Futures,,Equity index
+XIF,Non-Finance Non-Electronics Sub-Index Futures,,Equity index
+TJF,TOPIX Futures,,Equity index
+UDF,DJIA Futures,,Equity index
+SPF,S&P 500 Futures,,Equity index
+UNF,Nasdaq-100 Futures,,Equity index
+SXF,PHLX Semiconductor Sector Futures,,Equity index
+F1F,FTSE 100 Index Futures,,Equity index
+TXO,TAIEX Options ,Expires on the third Wednesday of the trading month,Equity index
+TX1,TAIEX Options ,Expires on the first Wednesday of the trading month,Equity index
+TX2,TAIEX Options ,Expires on the second Wednesday of the trading month,Equity index
+TX4,TAIEX Options ,Expires on the fourth Wednesday of the trading month,Equity index
+TX5,TAIEX Options ,Expires on the fifth Wednesday of the trading month,Equity index
+TXU,TAIEX Options ,Expires on the first Friday of the trading month,Equity index
+TXV,TAIEX Options ,Expires on the second Friday of the trading month,Equity index
+TXX,TAIEX Options ,Expires on the third Friday of the trading month,Equity index
+TXY,TAIEX Options ,Expires on the fourth Friday of the trading month,Equity index
+TXZ,TAIEX Options ,Expires on the fifth Friday of the trading month,Equity index
+TEO,Electronic Sector Index Options,,Equity index
+TFO,Finance Sector Index Options,,Equity index
+GDF,TAIFEX Gold Futures,,Commodity
+TGF,TAIFEX NT Dollar Gold Futures,,Commodity
+TGO,Gold Options,,Commodity
+BRF,Brent Crude Oil Futures,,Commodity
+RTF,USD/CNT FX Futures,,FX
+RHF,USD/CNH FX Futures,,FX
+XEF,EUR/USD FX Futures,,FX
+XJF,USD/JPY FX Futures,,FX
+XBF,GBP/USD FX Futures,,FX
+XAF,AUD/USD FX Futures,,FX
+CA,Nan Ya Plastics Corp.,,Equity
+CB,China Steel Corp.,,Equity
+CC,United Microelectronics Corp.,,Equity
+CD,"Taiwan Semiconductor Manufacturing Co., Ltd.",TSMC,Equity
+CE,"Fubon Financial Holding Co., Ltd.",,Equity
+CF,Formosa Plastics Corp.,,Equity
+CG,"Compal Electronics, Inc.",,Equity
+CH,AU Optronics Corp.,,Equity
+CJ,"Hua Nan Financial Holdings Co., Ltd.",,Equity
+CK,"Cathay Financial Holding Co., Ltd.",,Equity
+CL,"Mega Financial Holding Co., Ltd.",,Equity
+CM,"TS Financial Holding Co., Ltd.",,Equity
+CN,"CTBC Financial Holding Co., Ltd.",,Equity
+CQ,Uni-President Enterprises Corp.,,Equity
+CR,Far Eastern New Century Corp.,,Equity
+CS,Walsin Lihwa Corp.,,Equity
+CU,CMC Magnetics Corp.,,Equity
+CW,Qisda Corp.,,Equity
+CX,TATUNG COMPANY,,Equity
+CY,Nanya Technology Corp.,,Equity
+CZ,Evergreen Marine Corp. (Taiwan) Ltd.,,Equity
+DA,Yang Ming Marine Transport Corp.,,Equity
+DB,China Airlines Ltd.,,Equity
+DC,"Chang Hwa Commercial Bank, Ltd.",,Equity
+DE,"SinoPac Financial Holdings Co., Ltd.",,Equity
+DF,"Taiwan Cement Corp., Ltd.",,Equity
+DG,Formosa Chemicals & Fibre Corp.,,Equity
+DH,"Hon Hai Precision Ind. Co., Ltd.",,Equity
+DI,"Macronix International Co., Ltd.",,Equity
+DJ,Asustek Computer Inc.,,Equity
+DK,Quanta Computer Inc.,,Equity
+DL,"Chunghwa Telecom Co., Ltd.",,Equity
+DN,"E.Sun Financial Holding Co., Ltd.",,Equity
+DO,"Yuanta Financial Holding Co., Ltd.",,Equity
+DP,"First Financial Holding Co., Ltd.",,Equity
+DQ,Innolux Corp.,,Equity
+DS,Acer Inc.,,Equity
+DV,MediaTek Inc.,,Equity
+DW,Ruentex Industries Ltd.,,Equity
+DX,Wistron Corp.,,Equity
+DY,Asia Cement Corp.,,Equity
+DZ,"Great Wall Enterprise Co., Ltd.",,Equity
+EE,Grand Pacific Petrochemical Corp.,,Equity
+EG,China Petrochemical Development Corp.,,Equity
+EH,"Tong Yang Industry Co., Ltd.",,Equity
+EK,"Tainan Spinning Co., Ltd.",,Equity
+EM,"Teco Electric & Machinery Co., Ltd.",,Equity
+EO,Kinik Company,,Equity
+EP,AIRTAC International Group,,Equity
+EY,China Man-Made Fiber Corp.,,Equity
+EZ,"Taiwan Fertilizer Co., Ltd.",,Equity
+FB,Tung Ho Steel Enterprise Corp.,,Equity
+FE,"Ta Chen Stainless Pipe Co., Ltd.",,Equity
+FF,Hiwin Technologies Corp.,,Equity
+FG,"King Slide Works Co., Ltd.",,Equity
+FK,"Cheng Shin Rubber Ind., Co., Ltd.",,Equity
+FN,"YULON MOTOR CO.,LTD",,Equity
+FQ,Lite-On Technology Corp.,,Equity
+FR,"Delta Electronics, Inc.",,Equity
+FS,"KINPO ELECTRONICS, INC.",,Equity
+FT,"Compeq Manufacturing Co., Ltd.",,Equity
+FV,"Elitegroup Computer Systems Co., Ltd.",,Equity
+FW,D-LINK Corp.,,Equity
+FY,Taiwan-Asia Semiconductor Corp.,,Equity
+FZ,Winbond Electronics Corp.,,Equity
+GA,Synnex Technology International Corp.,,Equity
+GC,"Foxconn Technology Co., Ltd.",,Equity
+GH,"Gigabyte Technology Co., Ltd.",,Equity
+GI,"Micro-Star International Co., Ltd.",,Equity
+GJ,Realtek Semiconductor Corp.,,Equity
+GK,"CHICONY ELECTRONICS CO., LTD.",,Equity
+GL,"Cheng Uei Precision Industry Co., Ltd.",,Equity
+GM,"Everlight Electronics Co., Ltd.",,Equity
+GN,"Sunplus Technology Co., Ltd.",,Equity
+GO,"United Integrated Services Co., Ltd.",,Equity
+GR,"King Yuan Electronics Co., Ltd.",,Equity
+GU,"Visual Photonics Epitaxy Co., Ltd.",,Equity
+GV,"PHIHONG TECHNOLOGY CO., LTD.",,Equity
+GW,Elan Microelectronics Corp.,,Equity
+GX,"Catcher Technology Co., Ltd.",,Equity
+GY,PANJIT INTERNATIONAL INC.,,Equity
+GZ,Zinwell Corp.,,Equity
+HA,"Amtran Technology Co., Ltd.",,Equity
+HB,Walsin Technology Corp.,,Equity
+HC,HTC Corp.,,Equity
+HH,BES Engineering Co.,,Equity
+HI,Kindom Construction Corp.,,Equity
+HL,Highwealth Construction Corp.,,Equity
+HO,"Huaku Development Co., Ltd.",,Equity
+HQ,Sincere Navigation Corporation,,Equity
+HS,EVA Airways Corp.,,Equity
+IA,"Taiwan Business Bank, Ltd.",,Equity
+IH,Taiwan Tea Corp.,,Equity
+II,Elite Semiconductor Microelectronics Tech Inc.,,Equity
+IJ,"Largan Precision Co., Ltd.",,Equity
+IM,"Asia Optical Co., Inc.",,Equity
+IO,Novatek Microelectronics Corp.,,Equity
+IP,Faraday Technology Corp.,,Equity
+IQ,"WT Microelectronics Co., Ltd.",,Equity
+IR,Unimicron Technology Corp.,,Equity
+IT,TXC Corp.,,Equity
+IX,Kinsus Interconnect Technology Corp.,,Equity
+IY,"Shin Zu Shing Co., Ltd.",,Equity
+IZ,Alpha Networks Inc.,,Equity
+JB,Global Unichip Corp.,,Equity
+JF,"Lotes Co., Ltd.",,Equity
+JM,"Jentech Precision Industrial Co., Ltd",,Equity
+JN,"TPK Holding Co., Ltd.",,Equity
+JP,WPG Holdings Ltd.,,Equity
+JS,Pegatron Corp.,,Equity
+JW,"Chong Hong Development Co., Ltd.",,Equity
+JX,Capital Securities Corp.,,Equity
+JZ,"Career Technology (MFG.) Co., Ltd.",,Equity
+KA,Radiant Opto-Electronics Corp.,,Equity
+KB,ITEQ Corp.,,Equity
+KC,Powertech Technology Inc.,,Equity
+KD,"Tong Hsing Electronic Industries, Ltd.",,Equity
+KE,Taiwan Surface Mounting Technology Corp.,,Equity
+KF,AcBel Polytech Inc.,,Equity
+KG,WNC Corporation,,Equity
+KI,"Taiflex Scientific Co., Ltd.",,Equity
+KK,Darfon Electronics Corp.,,Equity
+KL,Pou Chen Corp.,,Equity
+KO,"Taiwan Hon Chuan Enterprise Co., Ltd.",,Equity
+KP,"Ruentex Development Co., Ltd.",,Equity
+KS,"Makalot Industrial Co., Ltd.",,Equity
+KU,Taiwan Glass Ind. Corp,,Equity
+KW,Pan-International Industrial Corp.,,Equity
+LB,Tripod Technology Corp.,,Equity
+LC,"Taiwan Mobile Co., Ltd.",,Equity
+LE,"Genius Electronic Optical Co., Ltd. ",,Equity
+LI,Flexium Interconnect Inc.,,Equity
+LM,"Merida Industry Co., Ltd.",,Equity
+LO,"Taiwan Cooperative Financial Holding Co., Ltd.",,Equity
+LQ,Inventec Corp.,,Equity
+LR,"KGI Financial Holding Co., Ltd.",,Equity
+LT,"Far Eastone Telecommunications Co., Ltd.",,Equity
+LU,Zhen Ding Technology Holding Ltd.,,Equity
+LV,"Chailease Holding Co., Ltd.",,Equity
+LW,"Eclat Textile Co., Ltd.",,Equity
+LX,Yageo Corp.,,Equity
+LY,Nan Ya Printed Circuit Board Corp.,,Equity
+MB,"Chin-Poon Industrial Co., Ltd.",,Equity
+MJ,Chroma Ate Inc.,,Equity
+MK,"Merry Electronics Co., Ltd.",,Equity
+MQ,Sigurd Microelectronics Corp.,,Equity
+MV,Taiwan Paiho Ltd.,,Equity
+MY,"St.Shine Optical Co., Ltd.",,Equity
+NA,Win Semiconductors Corp.,,Equity
+NB,Advanced Ceramic X Corp.,,Equity
+NC,Dynapack International Technology Corporation,,Equity
+ND,"ADATA Technology Co., Ltd.",,Equity
+NE,Ardentec Corp.,,Equity
+NG,Gigasolar Materials Corp.,,Equity
+NI,"Center Laboratories, Inc.",,Equity
+NJ,Gloria Material Technology Corp.,,Equity
+NL,Vanguard International Semiconductor Co.,,Equity
+NM,Coretronic Corp.,,Equity
+NO,Sino-American Silicon Products Inc.,,Equity
+NQ,"Simplo Technology Co., Ltd.",,Equity
+NS,Chipbond Technology Corp.,,Equity
+NU,PChome online Inc.,,Equity
+NV,E Ink Holdings Inc.,,Equity
+NW,Phison Electronics Corp.,,Equity
+NY,Yuanta/P-shares Taiwan Top 50 ETF ,,Equity
+OA,Fubon SSE180 ETF,,Equity
+OB,Yuanta/P-shares SSE50 ETF,,Equity
+OD,Cub Elecparts Inc.,,Equity
+OE,Hannstar Display Corp.,,Equity
+OH,Hu Lane Associate Inc.,,Equity
+OJ,Cathay FTSE China A50 ETF,,Equity
+OK,Fubon SZSE 100 Index ETF,,Equity
+OL,"Largan Precision Co., Ltd.",,Equity
+OM,"St.Shine Optical Co., Ltd.",,Equity
+OO,Capital SZSE SME Price Index ETF,,Equity
+OP,Accton Technology Corp.,,Equity
+OQ,Ennoconn Corp.,,Equity
+OR,"Hota Industrial Mfg. Co., Ltd.",,Equity
+OS,"Longchen Paper & Packaging Co., Ltd.",,Equity
+OT,LandMark Optoelectronics Corp.,,Equity
+OU,"Tung Thih Electronic Co., Ltd.",,Equity
+OV,Taiwan Union Technology Corp.,,Equity
+OW,"Globalwafers.Co., Ltd.",,Equity
+OX,"Chunghwa Precision Test Tech. Co., Ltd.",,Equity
+OY,"Chunghwa Precision Test Tech. Co., Ltd.",,Equity
+OZ,"ASE Technology Holding Co., Ltd.",,Equity
+PA,PixArt Imaging Inc. ,,Equity
+PB,"Globalwafers.Co., Ltd.",,Equity
+PC,"PharmaEngine, Inc.",,Equity
+PD,Taidoc Technology Corp.,,Equity
+PE,"Taiwan Semiconductor Co., Ltd. ",,Equity
+PF,Yuanta/P-shares Taiwan Dividend Plus ETF ,,Equity
+PG,Taiwan High Speed Rail Corp.,,Equity
+PH,Asmedia Technology Inc.,,Equity
+PI,eMemory Technology Inc.,,Equity
+PJ,"Elite Material Co., Ltd.",,Equity
+PK,"Prosperity Dielectrics Co., Ltd.",,Equity
+PL,Wafer Works Corp.,,Equity
+PM,"TCI Co., Ltd.",,Equity
+PN,Asmedia Technology Inc.,,Equity
+PP,Speed Tech Corp.,,Equity
+PQ,Co-Tech Development Corp.,,Equity
+PR,Advanced Wireless Semiconductor Company,,Equity
+PS,MiTAC Holdings Corporation,,Equity
+PT,"AURAS Technology Co.,Ltd.",,Equity
+PU,MediaTek Inc.,,Equity
+PV,Wiwynn Corporation,,Equity
+PW,Wiwynn Corporation,,Equity
+PX,"Interational Games System Co.,Ltd.",,Equity
+PY,"Interational Games System Co.,Ltd.",,Equity
+PZ,Aspeed Technology Inc.,,Equity
+QA,Aspeed Technology Inc.,,Equity
+QB,Ennostar Inc.,,Equity
+QC,U-Ming Marine Transport Corp.,,Equity
+QD,Formosa Sumco Technology Corporation,,Equity
+QE,Yageo Corp.,,Equity
+QF,"Taiwan Semiconductor Manufacturing Co., Ltd.",,Equity
+QG,Realtek Semiconductor Corp.,,Equity
+QH,Novatek Microelectronics Corp.,,Equity
+QI,Win Semiconductors Corp.,,Equity
+QJ,"Genius Electronic Optical Co., Ltd. ",,Equity
+QK,YFY Inc.,,Equity
+QL,Xintec Inc,,Equity
+QM,Hiwin Technologies Corp.,,Equity
+QN,Phison Electronics Corp.,,Equity
+QO,"Eternal Materials Co., Ltd.",,Equity
+QP,Cheng Loong Corporation,,Equity
+QQ,"Channel Well Technology Co., Ltd",,Equity
+QR,Asustek Computer Inc.,,Equity
+QS,Nan Ya Printed Circuit Board Corp.,,Equity
+QT,Greatek Electronics Inc.,,Equity
+QU,ChipMOS Technologies Inc.,,Equity
+QV,Taiwan Mask Corp.,,Equity
+QW,"Via Technologies, Inc.",,Equity
+QX,Wan Hai Lines Ltd.,,Equity
+QY,Medigen Vaccine Biologics Corporation,,Equity
+QZ,Powerchip Semiconductor Manufacturing Corp.,,Equity
+RA,"Asia Vital Components Co., Ltd.",,Equity
+RB,SERCOMM CORP.,,Equity
+RC,Aerospace Industrial Development Corporation,,Equity
+RD,"MICROBIO CO., LTD.",,Equity
+RE,Nuvoton Technology Corporation,,Equity
+RF,"Lotes Co., Ltd.",,Equity
+RG,"Jentech Precision Industrial Co., Ltd",,Equity
+RI,Cathay MSCI Taiwan ESG Sustainability High Dividend Yield ETF,,Equity
+RJ,Ta Ya Electric Wire & Cable,,Equity
+RK,Gold Circuit Electronics Ltd.,,Equity
+RL,TSEC Corporation,,Equity
+RN,"Oneness Biotech Co., Ltd.",,Equity
+RO,Lanner Electronics Inc.,,Equity
+RP,"POYA International Co., Ltd.",,Equity
+RR,"POYA International Co., Ltd.",,Equity
+RS,eMemory Technology Inc.,,Equity
+RU,"Century Iron And Steel Industrial Co., Ltd.",,Equity
+RV,"Delta Electronics, Inc.",,Equity
+RW,Global Unichip Corp.,,Equity
+RX,Fubon Vietnam ETF,,Equity
+RY,Capital TIP Customized Taiwan ESG Low Carbon 50 ETF,,Equity
+RZ,Yuanta U.S. Treasury 20+ Year Bond ETF,,Equity
+SA,"Lotus Pharmaceutical Co., Ltd.",,Equity
+SB,CHUNG HWA PULP CORP.,,Equity
+SC,"Makalot Industrial Co., Ltd.",,Equity
+SD,CHUNG-HSIN ELECTRIC & MACHINERY MFG. CORP.,,Equity
+SE,Accton Technology Corp.,,Equity
+SF,"Elite Material Co., Ltd.",,Equity
+SG,Cathay Global Autonomous and Electric Vehicles ETF,,Equity
+SI,Yuanta U.S. Treasury 1-3 Year Bond ETF,,Equity
+SJ,Getac Holdings Corporation,,Equity
+SK,"Supreme Electronics Co., Ltd.",,Equity
+SL,"Gigabyte Technology Co., Ltd.",,Equity
+SM,Capital TIP Customized Taiwan Select High Dividend ETF,,Equity
+SN,Fuh Hwa Taiwan Technology Dividend Highlight ETF,,Equity
+SQ,CTBC USD Corporate 10+ Year High Grade Capped Bond ETF,,Equity
+SR,Yuanta/P-shares Taiwan Top 50 ETF ,,Equity
+SS,Yuanta/P-shares Taiwan Dividend Plus ETF,,Equity
+SU,Yuanta Taiwan Value High Dividend ETF,,Equity
+SV,"King Slide Works Co., Ltd.",,Equity
+SW,"Century Iron And Steel Industrial Co., Ltd.",,Equity
+SY,"Gudeng Precision Industrial Co., LTD",,Equity
+SZ,"Gudeng Precision Industrial Co., LTD",,Equity
+UA,Shihlin Electric & Engineering Corp.,,Equity
+UB,"L&K Engineering Co., Ltd.",,Equity
+UC,Quanta Storage Inc.,,Equity
+UE,"The Shanghai Commercial & Savings Bank, Ltd.",,Equity
+UF,Formosa Petrochemical Corp.,,Equity
+UG,Airoha Technology Corp.,,Equity
+UH,"Asia Vital Components Co., Ltd.",,Equity
+UI,Airoha Technology Corp.,,Equity
+UJ,Capital ICE ESG 20+ Year BBB US Corporate ETF,,Equity
+UK,Cathay U.S. Treasury 20+ Year ETF Fund,,Equity
+UL,"AURAS Technology Co.,Ltd.",,Equity
+UM,"Alchip Technologies, Ltd.",,Equity
+UO,"Alchip Technologies, Ltd.",,Equity
+UP,"Bora Pharmaceuticals Co., Ltd.",,Equity
+UQ,"Bora Pharmaceuticals Co., Ltd.",,Equity
+UR,UPAMC NYSE FANG+ ETF,,Equity
+US,UPAMC NYSE FANG+ ETF,,Equity
+UT,"I-Chiun Precision Industry Co., Ltd.",,Equity
+UU,"Tigerair Taiwan Co., Ltd.",,Equity
+UV,MPI Corporation,,Equity
+UW,MPI Corporation,,Equity
+UX,"Orient Semiconductor Electronics, Ltd.",,Equity
+UY,Longwell Company,,Equity
+UZ,"United Integrated Services Co., Ltd.",,Equity
+VA,"Hua Eng Wire & Cable Co., Ltd.",,Equity
+VB,Unitech Printed Circuit Board Corp.,,Equity
+VC,"Sunonwealth Electric Machine Industry Co., Ltd.",,Equity
+VD,Chroma Ate Inc.,,Equity
+VE,BizLink Holding Inc.,,Equity
+VF,BizLink Holding Inc.,,Equity
+VG,Gold Circuit Electronics Ltd.,,Equity
+VH,Fubon Taiwan Technology Tracker Fund,,Equity
+VI,"Advantech Co., Ltd.",,Equity
+VJ,Dynapack International Technology Corporation,,Equity
+VK,"L&K Engineering Co., Ltd.",,Equity
+VL,"Wiselink Co., Ltd.",,Equity
+VM,"Fortune Electric Co., Ltd.",,Equity
+VN,"Fortune Electric Co., Ltd.",,Equity
+VO,"King Yuan Electronics Co., Ltd. ",,Equity
+VP,"ASE Technology Holding Co., Ltd.",,Equity

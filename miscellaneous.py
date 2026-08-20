@@ -12,12 +12,6 @@ from collections.abc import Iterable
 from matplotlib import axes, pyplot as plt, dates as mdates
 
 
-# These are the contracts I'm interested in. Adapt as needed for your interests.
-contracts_df = pd.read_csv("SGX_codes.csv", index_col='Code').fillna("")
-contracts_dict = contracts_df['Contract'].to_dict()
-priced_in_dict = contracts_df['Price Unit'].to_dict()
-
-
 def month_locators(axis:axes.Axes, majors:Iterable[int]=[1],
                    minors:Iterable[int]|None=None,
                    include_jan:bool=True, include_year:bool=True,
