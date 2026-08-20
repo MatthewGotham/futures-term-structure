@@ -1,6 +1,6 @@
 # Futures Term Structure
 
-This repo contains tools for sourcing, analyzing and describing the term structure of futures contracts. The examples are all based on contracts traded on the [Taiwan Futures Exchange](https://www.taifex.com.tw/enl/eIndex); that's because the Republic of China government releases data from this exchange under the terms of a [licence](https://data.gov.tw/license) that allows me to share my visualizations and reports.
+This repo contains tools for sourcing, analyzing and describing the term structure of futures contracts. The examples are all based on contracts traded on the [Taiwan Futures Exchange](https://www.taifex.com.tw/enl/eIndex); that's because the Republic of China government releases data from this exchange under the terms of a [licence](https://data.gov.tw/license) that allows me to share my visualizations and reports. You can see the visualizations in the [animations](/animations) and [graphs](/graphs) folders; the reports are TBA.
 
 
 ##  Quick start guide
