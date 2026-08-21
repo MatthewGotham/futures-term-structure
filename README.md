@@ -1,6 +1,6 @@
 # Futures Term Structure
 
-This repo contains tools for sourcing, analyzing and describing the term structure of futures contracts. The examples are all based on contracts traded on the [Taiwan Futures Exchange](https://www.taifex.com.tw/enl/eIndex); that's because the Republic of China government releases data from this exchange under the terms of a [licence](https://data.gov.tw/license) that allows me to share my visualizations and reports. You can see the visualizations in the [animations](/animations) and [graphs](/graphs) folders; the reports are TBA.
+This repo contains tools for sourcing, analyzing and describing the term structure of futures contracts. The examples are all based on contracts traded on the [Taiwan Futures Exchange](https://www.taifex.com.tw/enl/eIndex); that's because the Republic of China government releases data from this exchange under the terms of a [licence](https://data.gov.tw/license) that allows me to share my visualizations and reports. You can see the visualizations in the [animations](/animations) and [graphs](/graphs) folders, and the reports in the [reports](/reports) folder.
 
 
 ##  Quick start guide
@@ -25,6 +25,7 @@ This repo contains tools for sourcing, analyzing and describing the term structu
 
 1. The contract codes for the price data you want to extract must be included in the list assigned to `to_add` in the file [parse_TAIFEX_data.py](./parse_TAIFEX_data.py).
 2. The contract codes for which you want to produce a curve movement animation and graphs must be included in the list assigned to `to_include` in the file [futures_curve_visualizations.py](/futures_curve_visualizations.py).
+2. The contract codes for which you want to produce a report must be included in the list assigned to `to_report` in the file [produce_TAIFEX_reports.py](/produce_TAIFEX_reports.py).
 
 
 ### ...change the dates to include in the animation
@@ -39,5 +40,4 @@ Change the `prompt_dates` parameter in the call to `animate_curve` in [futures_c
 
 ## To add
 
-- Combination of animations and curves into an HTML report for each instrument.
-- (Semi-)automated commentary on the curves for those reports.
+- More detail in the reports, including (semi-)automated commentary on the curves.
