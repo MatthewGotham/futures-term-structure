@@ -17,6 +17,7 @@ This repo contains tools for sourcing, analyzing and describing the term structu
 2. Run [futures_curve_visualizations.py](/futures_curve_visualizations.py). For each of the selected contracts (default: same list as above), this produces:
     * an animation showing the movement of the futures curve over the period for which you have price data, saved to the folder [animations](/animations), and
     * charts showing the price, slope and curvature of the curve over the period, saved to the folder [graphs](/graphs).
+2. Run [produce_TAIFEX_reports.py](/produce_TAIFEX_reports.py). This produces an HTML report for each of the selected contracts (default: same list as above) incorporating the animation and graphs, and saves it into the [reports](/reports) folder.
 
 
 ## How to...
