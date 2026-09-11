@@ -6,14 +6,27 @@ Created on Fri Aug 21 01:41:53 2026
 @author: matthew
 """
 
+import base64
 import pandas as pd
 from json import loads
 with open("contracts.json", "r") as file:
     contracts_dict = loads(file.read())
 
 
+def filepath_uri(filepath:str) -> str:
+    "Creates a URI for embedding an image within HTML."
+    with open(filepath, 'rb') as file:
+        extension = filepath.split('.')[-1]
+        file_binary = file.read()
+        file_utf8_str = base64.b64encode(file_binary).decode('utf-8')
+        datauri = f'data:image/{extension};base64,{file_utf8_str}'
+    return datauri
+
+
 def generate_html(code:str, updated:str="") -> str:
     contract = contracts_dict[code]
+    image_uri = filepath_uri(f'./graphs/TAIFEX_{code}_charts.png')
+    video_uri = filepath_uri(f'./animations/TAIFEX_{code}_curve_animation.mp4')
     output = f"""
 <html lang="en-GB">
 
@@ -27,11 +40,11 @@ def generate_html(code:str, updated:str="") -> str:
 <div style="margin-left:auto; margin-right:auto; width:1200px">
     <p>
         <video controls autoplay width="800px" style="padding-left: 100px;padding-right: 100px;">
-            <source src="../animations/TAIFEX_{code}_curve_animation.mp4" type="video/mp4">
+            <source src="{video_uri}" type="video/mp4">
         </video>
     </p>
     <p>
-        <img src="../graphs/TAIFEX_{code}_charts.png" width="1000px">
+        <img src="{image_uri}" width="1000px">
     </p>
 </body>
 </div>

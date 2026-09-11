@@ -21,11 +21,17 @@ EN_cols = ['Date', 'Contract', 'ContractMonth(Week)', 'Open', 'High', 'Low',
            'BestBid', 'BestAsk', 'HistoricalHigh', 'HistoricalLow',
            'TradingHalt', 'TradingSession',
            'Volume(ExecutionsAmongSpreadOrderAndSingleOrderOnly)']
+LC_cols = ['date', 'contract', 'contract month(Week)', 'open', 'high', 'low',
+           'last	', 'Change', '%', 'Volume', 'settlement_price',
+           'open_interest', 'best_bid', 'best_ask', 'historical_high',
+           'historical_low', 'trading_halt', 'Trading Session',
+           'Volume(executions among spread order and single order only)']
 CN_cols = ['日期', '契約代號', '到期月份(週別)', '開盤價', '最高價', '最低價',
            '最後成交價', '漲跌價', '漲跌%', '合計成交量', '結算價', '未沖銷契約數',
            '最後最佳買價', '最後最佳賣價', '歷史最高價', '歷史最低價',
            '是否因訊息面暫停交易', '交易時段', '價差對單式委託成交量']
 translation = {cn:en for cn,en in zip(CN_cols,EN_cols)}
+translation1 = {lc:en for lc,en in zip(LC_cols,EN_cols)}
 translation.update({"一般": "Regular", "盤後": "After-Hours"})
 
 
@@ -54,7 +60,8 @@ for futures_file in [f for f in os.listdir(save_folder) if f.endswith('json')
             else:
                 # CSV
                 source_df = pd.read_csv(os.path.join(save_folder,futures_file)
-                                        ).rename(columns=translation)
+                                        ).rename(columns=translation
+                                                 ).rename(columns=translation1)
             source_df = source_df.replace('-',pd.NA).replace("NULL",pd.NA)
             df_new = source_df[source_df['Contract']==code
                                ].dropna(subset='SettlementPrice').copy()
