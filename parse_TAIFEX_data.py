@@ -59,13 +59,15 @@ for futures_file in [f for f in os.listdir(save_folder) if f.endswith('json')
                                                       futures_file))
             else:
                 # CSV
-                source_df = pd.read_csv(os.path.join(save_folder,futures_file)
+                source_df = pd.read_csv(os.path.join(save_folder,futures_file),
+                                        index_col=False
                                         ).rename(columns=translation
                                                  ).rename(columns=translation1)
             source_df = source_df.replace('-',pd.NA).replace("NULL",pd.NA)
             df_new = source_df[source_df['Contract']==code
                                ].dropna(subset='SettlementPrice').copy()
-            df_new['Prompt'] = pd.to_datetime(df_new['ContractMonth(Week)'],
+            df_new['Prompt'] = pd.to_datetime(df_new['ContractMonth(Week)'
+                                                     ].str.rstrip(),
                                               format="%Y%m", errors='coerce')
             try:
                 df_new['Date'] = pd.to_datetime(df_new['Date'],
