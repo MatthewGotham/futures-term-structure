@@ -55,7 +55,7 @@ def animate_curve(curve:pd.DataFrame, title:str, priced_in:str|None=None,
     prompt_dates:
         The dates to include in the curve. Default: all available dates
         (all the columns of curve). This can be narrowed by entering a date
-        range in the for of (starting date, closing date) (both will be)
+        range in the form of (starting date, closing date) (both will be)
         included.
     speed:
         Animation speed in shifts/second. Default: 4.
@@ -223,7 +223,7 @@ for code in to_include:
     curve = pd.read_parquet(os.path.join("TAIFEX_prices",
                                     f'TAIFEX_{code}_prices.parquet'))
     # Animation
-    animate_curve(curve, contract, quote
+    animate_curve(curve, contract, quote, 63 # Last 3 months' prices.
                   ).save(os.path.join("animations",
                                       f'TAIFEX_{code}_curve_animation.mp4'),
                                       writer=animation.FFMpegWriter())
