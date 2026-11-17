@@ -67,6 +67,15 @@ def animate_curve(curve:pd.DataFrame, title:str, priced_in:str|None=None,
     if prompt_dates is not None:
         curve = curve[[c for c in curve.columns
                        if prompt_dates[0]<=c<=prompt_dates[1]]]
+    # Fill in gaps and get the period we're focussing on.
+    if quote_dates is not None:
+        if type(quote_dates)==int:
+            curve = curve.tail(quote_dates)
+        else:
+            curve = curve.loc[quote_dates[0]:quote_dates[1]]
+    curve = curve.replace(0, float('nan')).interpolate(method='time',
+                                                       limit_area='inside')
+    #
     date_range = (curve.index.min()-timedelta(days=1),
                   curve.index.max()+timedelta(days=1))
     prompt_range = (curve.columns.min()-timedelta(weeks=2),
@@ -81,14 +90,6 @@ def animate_curve(curve:pd.DataFrame, title:str, priced_in:str|None=None,
                    range(1,13))
     day_locators(ax1, [1,7,13,19,25], range(1,32), new_line=True)
     artists = []
-    # Fill in gaps and get the period we're focussing on.
-    if quote_dates is not None:
-        if type(quote_dates)==int:
-            curve = curve.tail(quote_dates)
-        else:
-            curve = curve.loc[quote_dates[0]:quote_dates[1]]
-    curve = curve.replace(0, float('nan')).interpolate(method='time',
-                                                       limit_area='inside')
     for i,sers in curve.iterrows():
         # Sometimes there are gaps in the middle.
         sers.dropna(inplace=True)
